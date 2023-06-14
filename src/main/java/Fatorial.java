@@ -1,3 +1,5 @@
+import static java.lang.System.*;
+
 public class Fatorial {
 
     public int resultadoFatorial(int num){
@@ -6,7 +8,6 @@ public class Fatorial {
 
         if (n < 0) {
             System.out.println("Número Inválido");
-            n = -1;
         } else {
             fatorial = 1;
             for (int i = 1; i <= n; i++){
